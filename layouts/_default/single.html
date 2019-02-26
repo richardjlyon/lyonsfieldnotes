@@ -9,7 +9,7 @@
 <div class="uk-width-3-5">
     {{ if isset .Params.gist }}
     <p class="gist">{{ .Params.gist | markdownify }}</p>
-    {{ endif }}
+    {{ end }}
     <h1 class="uk-margin-small-top">{{ .Title | markdownify}}</h1>
     <p class="uk-text-lead">{{ .Description | markdownify}}</p>
 
