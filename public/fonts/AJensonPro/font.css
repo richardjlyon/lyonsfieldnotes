@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Adobe Jenson Pro';
+  src: url('AJensonPro-Bold.eot'); /* IE9 Compat Modes */
+  src: url('AJensonPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('AJensonPro-Bold.woff') format('woff'), /* Modern Browsers */
+       url('AJensonPro-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('AJensonPro-Bold.svg#f581ed13efd3070e3b2353fff72e17cd') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Adobe Jenson Pro';
+  src: url('AJensonPro-It.eot'); /* IE9 Compat Modes */
+  src: url('AJensonPro-It.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('AJensonPro-It.woff') format('woff'), /* Modern Browsers */
+       url('AJensonPro-It.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('AJensonPro-It.svg#790e506e5a4b62f6d54f2157f389054d') format('svg'); /* Legacy iOS */
+
+  font-style:   italic;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Adobe Jenson Pro';
+  src: url('AJensonPro-Regular.eot'); /* IE9 Compat Modes */
+  src: url('AJensonPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('AJensonPro-Regular.woff') format('woff'), /* Modern Browsers */
+       url('AJensonPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('AJensonPro-Regular.svg#538cf6ccfdb9ba53250da533458356e0') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}

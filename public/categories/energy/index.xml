@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Energy on Lyon&#39;s Field Notes</title>
+    <link>http://lyonsfieldnotes.org/categories/energy/</link>
+    <description>Recent content in Energy on Lyon&#39;s Field Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 12 Jul 2016 07:03:20 +0000</lastBuildDate>
+    
+	<atom:link href="http://lyonsfieldnotes.org/categories/energy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lies, Damn Lies, and Renewable Energy statistics</title>
+      <link>http://lyonsfieldnotes.org/posts/160712-lies-damn-lies/</link>
+      <pubDate>Tue, 12 Jul 2016 07:03:20 +0000</pubDate>
+      
+      <guid>http://lyonsfieldnotes.org/posts/160712-lies-damn-lies/</guid>
+      <description>Proponents of sustainable energy arrangements (of which I am one) face a difficult challenge&amp;mdash;reconciling the the fundamental incompatibility between the low grade1, intermittency, and high cost of current renewable energy technologies with the requirement of industrial economies for energy sources which are high grade, continuously available, and inexpensive.
+In our efforts to build confidence, mobilise support, and accelerate transition, we are inclined to refract the statistics of renewable technologies through glasses of the rosiest hue.</description>
+    </item>
+    
+  </channel>
+</rss>

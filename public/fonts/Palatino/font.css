@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Palatino Linotype';
+  src: url('Palatino Linotype.eot'); /* IE9 Compat Modes */
+  src: url('Palatino Linotype.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Palatino Linotype.woff') format('woff'), /* Modern Browsers */
+       url('Palatino Linotype.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Palatino Linotype.svg#89218288b35da0b1dbd2aea7e58b4c6b') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Palatino Linotype';
+  src: url('Palatino Linotype Bold.eot'); /* IE9 Compat Modes */
+  src: url('Palatino Linotype Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Palatino Linotype Bold.woff') format('woff'), /* Modern Browsers */
+       url('Palatino Linotype Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Palatino Linotype Bold.svg#056a367646fe820573a082db301ae5ae') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Palatino Linotype';
+  src: url('Palatino Linotype Bold Italic.eot'); /* IE9 Compat Modes */
+  src: url('Palatino Linotype Bold Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Palatino Linotype Bold Italic.woff') format('woff'), /* Modern Browsers */
+       url('Palatino Linotype Bold Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Palatino Linotype Bold Italic.svg#f6702fca35e400b0a43e22bbc228b61a') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Palatino Linotype';
+  src: url('Palatino Linotype Italic.eot'); /* IE9 Compat Modes */
+  src: url('Palatino Linotype Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Palatino Linotype Italic.woff') format('woff'), /* Modern Browsers */
+       url('Palatino Linotype Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Palatino Linotype Italic.svg#979bf1e76ed816239da6972f80e9a4e3') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  400;
+}
+

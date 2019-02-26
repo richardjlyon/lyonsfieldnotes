@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Lyon&#39;s Field Notes</title>
+    <link>http://lyonsfieldnotes.org/categories/</link>
+    <description>Recent content in Categories on Lyon&#39;s Field Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    
+	<atom:link href="http://lyonsfieldnotes.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Energy</title>
+      <link>http://lyonsfieldnotes.org/categories/energy/</link>
+      <pubDate>Tue, 12 Jul 2016 07:03:20 +0000</pubDate>
+      
+      <guid>http://lyonsfieldnotes.org/categories/energy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feminism</title>
+      <link>http://lyonsfieldnotes.org/categories/feminism/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://lyonsfieldnotes.org/categories/feminism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fun</title>
+      <link>http://lyonsfieldnotes.org/categories/fun/</link>
+      <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://lyonsfieldnotes.org/categories/fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>http://lyonsfieldnotes.org/categories/photography/</link>
+      <pubDate>Mon, 13 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://lyonsfieldnotes.org/categories/photography/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
