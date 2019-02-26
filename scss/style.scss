@@ -1,5 +1,5 @@
 @import "../fonts/Guardian/font.css";
-
+ 
 // 1. Your custom variables and variable overwrites.
 $global-font-size: 18px;
 $global-tiny-font-size: 0.7rem;
@@ -12,8 +12,8 @@ $navbar-nav-item-font-size: $global-font-size;
 $logo-font-family: $global-sans-font-family;
 
 // 2. Import default variables and available mixins.
-@import "uikit/src/scss/variables.scss";
-@import "uikit/src/scss/mixins.scss";
+@import "../uikit/src/scss/variables.scss";
+@import "../uikit/src/scss/mixins.scss";
 
 $logo-font-size: $global-small-font-size;
 
@@ -22,7 +22,7 @@ $logo-font-size: $global-small-font-size;
 @mixin hook-text-meta(){ font-family: $global-sans-font-family;}
 
 // 4. Import UIkit.
-@import "uikit/src/scss/uikit-theme.scss";
+@import "../uikit/src/scss/uikit-theme.scss";
 
 // Custom CSS
 
