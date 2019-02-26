@@ -1,5 +1,4 @@
 ---
-gist: .
 title: A load of balls
 description: Learning to draw
 date: 2015-12-03
