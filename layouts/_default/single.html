@@ -7,7 +7,7 @@
 </div>
 
 <div class="uk-width-3-5">
-    {{ if isset .Params.gist }}
+    {{ if isset .Params "gist" }}
     <p class="gist">{{ .Params.gist | markdownify }}</p>
     {{ end }}
     <h1 class="uk-margin-small-top">{{ .Title | markdownify}}</h1>
