@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Arno Pro Display';
+  src: url('ArnoPro-BoldDisplay.eot'); /* IE9 Compat Modes */
+  src: url('ArnoPro-BoldDisplay.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ArnoPro-BoldDisplay.woff') format('woff'), /* Modern Browsers */
+       url('ArnoPro-BoldDisplay.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ArnoPro-BoldDisplay.svg#7f16e9252b2d3d3134c86b3914ca4387') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Arno Pro Display';
+  src: url('ArnoPro-Display.eot'); /* IE9 Compat Modes */
+  src: url('ArnoPro-Display.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ArnoPro-Display.woff') format('woff'), /* Modern Browsers */
+       url('ArnoPro-Display.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ArnoPro-Display.svg#e46aca176290f68adffecf0e2773e18d') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Arno Pro Display';
+  src: url('ArnoPro-ItalicDisplay.eot'); /* IE9 Compat Modes */
+  src: url('ArnoPro-ItalicDisplay.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ArnoPro-ItalicDisplay.woff') format('woff'), /* Modern Browsers */
+       url('ArnoPro-ItalicDisplay.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('ArnoPro-ItalicDisplay.svg#72863dc3f5c0cec8e05eb59a7116da4a') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  400;
+}
+

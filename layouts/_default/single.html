@@ -1,0 +1,47 @@
+{{ define "title" }}
+{{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<div class="uk-width-1-5">
+</div>
+
+<div class="uk-width-3-5">
+    <p class="gist">{{ .Params.gist | markdownify }}</p>
+    <h1 class="uk-margin-small-top">{{ .Title | markdownify}}</h1>
+    <p class="uk-text-lead">{{ .Description | markdownify}}</p>
+
+    {{ if .Params.show_post_image }}
+    {{ with .Resources.GetMatch "header" }}
+    <figure class="uk-margin-small-top">
+      <img src="{{ .RelPermalink }}" />
+    </figure>
+    {{ end }}
+    {{ end }}
+
+    <div uk-grid class="post-meta">
+      <div class="uk-width-expand uk-padding-remove-left">
+        <div>
+          {{ range .Params.categories }} {{ humanize . }} {{ end }}
+        </div>
+        <div>
+          {{ dateFormat "January 2, 2006" .Date }}
+          {{ if .Params.location }}  | {{ .Params.location | upper}} {{ end}}
+        </div>
+      </div>
+
+      <div class="uk-width-auto uk-text-middle">
+        <a href="" class="uk-icon-button" uk-icon="twitter"></a>
+        <a href="" class="uk-icon-button" uk-icon="facebook"></a>
+        <a href="" class="uk-icon-button" uk-icon="linkedin"></a>
+        <a href="" class="uk-icon-button" uk-icon="mail"></a>
+        <a href="" class="uk-icon-button" uk-icon="print"></a>
+      </div>
+    </div>
+
+    {{ .Content }}
+</div>
+
+<div class="uk-width-1-5">
+</div>
+{{ end }}

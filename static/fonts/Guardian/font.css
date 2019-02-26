@@ -1,0 +1,40 @@
+@font-face {
+    font-family:"GuardianEgyptian-Medium";
+    src:url("GuardEgyptian-MediumItalic.woff2") format("woff2"),
+        url("GuardEgyptian-MediumItalic.woff") format("woff"),
+        url("GuardEgyptian-MediumItalic.otf") format("opentype");
+    font-style:italic;font-weight:400;
+}
+
+@font-face {
+	font-family:"GuardianEgyptian-Medium";
+	src:url("GuardEgyptian-Medium.woff2") format("woff2"),
+		  url("GuardEgyptian-Medium.woff") format("woff"),
+		  url("GuardEgyptian-Medium.otf") format("opentype");
+	font-style:normal;font-weight:400;
+}
+
+@font-face {
+  font-family:"GuardianEgyptianText-Regular";
+  src:url("GuardianTextEgypt-RegularItalic.woff2") format("woff2"),
+      url("GuardianTextEgypt-RegularItalic.woff") format("woff"),
+      url("GuardianTextEgypt-RegularItalic.otf") format("opentype");
+  font-style:italic;font-weight:400;
+}
+
+@font-face {
+	font-family:"GuardianEgyptianText-Regular";
+	src:url("GuardianTextEgypt-Regular.woff2") format("woff2"),
+		  url("GuardianTextEgypt-Regular.woff") format("woff"),
+		  url("GuardianTextEgypt-Regular.otf") format("opentype");
+	font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"GuardianSansText-Regular";
+    src:url("GuardianTextSans-Regular.woff2") format("woff2"),
+        url("GuardianTextSans-Regular.woff") format("woff"),
+        url("GuardianTextSans-Regular.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        

@@ -1,0 +1,10 @@
+baseURL = "http://lyonsfieldnotes.org/"
+languageCode = "en-uk"
+title = "Lyon's Field Notes"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "About"
+    name = "About"
+    url = "/about/"

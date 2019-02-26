@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <!-- UIkit JS -->
+    <script src="/js/uikit.min.js"></script>
+    <script src="/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+    <div class="uk-container">
+
+      <nav uk-navbar>
+        <div class="uk-width-1-5 uk-margin-top uk-margin-bottom">
+          <a href="\">Lyon's Field Notes</a>
+        </div>
+
+        <div class="uk-width-3-5 uk-margin-top uk-margin-bottom">
+          <span uk-icon="search"></span>
+          <form class="uk-search">
+              <input class="uk-search-input" type="search" placeholder="Search">
+          </form>
+        </div>
+
+        <div class="uk-width-1-5 uk-margin-top uk-margin-bottom">
+          <ul class="uk-nav uk-nav-default">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}uk-active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+            {{ end }}
+          </ul>
+        </div>
+      </nav>
+
+      <div uk-grid>
+
+        {{ block "main" . }}
+        {{ end }}
+
+      </div>
+
+      <div class="uk-margin-large-top uk-text-center footer">
+          <p>&copy; Richard Lyon, 2016-2019<p>
+      </div>
+
+    </div>
+</body>
+</html>

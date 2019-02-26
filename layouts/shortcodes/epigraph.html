@@ -1,0 +1,10 @@
+<figure class="epigraph">
+  <blockquote>
+    {{ .Inner }}
+    {{ if .Get "src" }}
+    <footer class="uk-text-right uk-text-muted">
+      <cite>&#8212; {{.Get "src" }}</cite>
+    </footer>
+    {{ end }}
+  </blockquote>
+</figure>

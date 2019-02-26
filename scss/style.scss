@@ -1,0 +1,83 @@
+@import "../fonts/Guardian/font.css";
+
+// 1. Your custom variables and variable overwrites.
+$global-font-size: 18px;
+$global-tiny-font-size: 0.7rem;
+$global-link-color: #e50053; // hot pink
+$base-heading-font-family: "GuardianEgyptian-Medium";
+$global-font-family: "GuardianEgyptianText-Regular";
+$global-sans-font-family: "GuardianSansText-Regular";
+$navbar-nav-item-font-family: $global-sans-font-family;
+$navbar-nav-item-font-size: $global-font-size;
+$logo-font-family: $global-sans-font-family;
+
+// 2. Import default variables and available mixins.
+@import "uikit/src/scss/variables.scss";
+@import "uikit/src/scss/mixins.scss";
+
+$logo-font-size: $global-small-font-size;
+
+// 3. Your custom mixin overwrites.
+@mixin hook-card() { color: #000; }
+@mixin hook-text-meta(){ font-family: $global-sans-font-family;}
+
+// 4. Import UIkit.
+@import "uikit/src/scss/uikit-theme.scss";
+
+// Custom CSS
+
+nav.uk-navbar {
+  font-family: $global-sans-font-family;
+}
+
+.sidebar {
+  font-family: $global-sans-font-family;
+	font-size: 0.8em;
+}
+
+.list {
+  h2 { font-size: $global-medium-font-size; }
+}
+
+.gist {
+  font-family: $global-sans-font-family;
+  font-size: $global-medium-font-size;
+  color: $global-link-color;
+}
+
+div.post-meta {
+  margin-left: 0px;
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  padding: 10px 0 10px 0;
+  font-family: $global-sans-font-family;
+  font-size: $global-tiny-font-size;
+}
+
+em {
+  color: $global-color;
+}
+
+blockquote {
+  font-size: $global-font-size;
+  border-left: 2px solid #EEE;
+  padding-left: 2em;
+}
+
+div.footnotes {
+  font-family: $global-sans-font-family;
+  font-size: $global-small-font-size;
+  li {
+    padding-bottom: 0.5em;
+  }
+}
+
+figure.epigraph {
+  footer {
+    font-family: $global-sans-font-family;
+  }
+}
+
+div.footer {
+  font-family: $global-sans-font-family;
+}

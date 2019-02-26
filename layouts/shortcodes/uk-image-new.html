@@ -1,0 +1,5 @@
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+<figure>
+<img data-src="{{ $original.RelPermalink }}" width="" height="" alt="" uk-img>
+<figcaption class="uk-text-meta uk-margin-small-top"><p>{{$original.Title}}</p>
+</figure>
