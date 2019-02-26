@@ -31,7 +31,7 @@ It's not alone. Look at how three major dictionaries define and illustrate sexis
 
 > sexism noun sex·ism \ˈsek-ˌsi-zəm\ : (1) prejudice or discrimination based on sex; especially : **discrimination against women** (2) behavior, conditions, or attitudes that foster stereotypes of social roles based on sex
 
-And, in even in their definition of _stereotype_, the Oxford Dictionary's illustration is stereotypical:
+And, in even in their definition of _stereotype_, the Oxford Dictionary's illustration is sexist:
 
 {{<epigraph src="The Oxford Dictionary">}}
 a widely held but fixed and oversimplified image or idea of a particular type of person or thing: the stereotype of the <strong>woman as the carer</strong>
