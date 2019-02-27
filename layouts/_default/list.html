@@ -1,64 +1,64 @@
 {{ define "main" }}
-  <div class="uk-width-1-5 sidebar">
-      <ul class="uk-list uk-nav uk-nav-default">
-          <a href="/">
-              <li><span class="uk-margin-small-right" uk-icon="icon: home; ratio: .9"></span>Home</li>
-          </a>
-          <li><span class="uk-margin-small-right" uk-icon="icon: heart; ratio: .9"></span>Liked</li>
-          <li><span class="uk-margin-small-right" uk-icon="icon: album; ratio: .9"></span>Archive</li>
-          <li><span class="uk-margin-small-right" uk-icon="icon: youtube; ratio: .9"></span>Videos</li>
-      </ul>
+<div class="uk-width-1-5 sidebar">
+    <ul class="uk-list uk-nav uk-nav-default">
+        <a href="/">
+            <li><span class="uk-margin-small-right" uk-icon="icon: home; ratio: .9"></span>Home</li>
+        </a>
+        <li><span class="uk-margin-small-right" uk-icon="icon: heart; ratio: .9"></span>Liked</li>
+        <li><span class="uk-margin-small-right" uk-icon="icon: album; ratio: .9"></span>Archive</li>
+        <li><span class="uk-margin-small-right" uk-icon="icon: youtube; ratio: .9"></span>Videos</li>
+    </ul>
 
-      <hr />
+    <hr />
 
-      <ul class="uk-list">
-          {{ range $key, $value := .Site.Taxonomies.categories }}
-          <li><span class="uk-margin-small-right" uk-icon="icon: folder; ratio: .9"></span>
-              <a href="">{{ $key | humanize }}</a></li>
-          {{ end }}
-      </ul>
+    <ul class="uk-list">
+        {{ range $key, $value := .Site.Taxonomies.categories }}
+        <li><span class="uk-margin-small-right" uk-icon="icon: folder; ratio: .9"></span>
+            <a href="/categories/{{ $key }}">{{ $key | humanize }}</a></li>
+        {{ end }}
+    </ul>
 
-      <nav class="sidebar-nav">
+    <nav class="sidebar-nav">
 
-      </nav>
+    </nav>
 
-  </div>
+</div>
 
-  <div class="uk-width-4-5 list">
+<div class="uk-width-4-5 list">
 
     {{ range .Pages }}
 
     <div uk-grid class="uk-margin-remove-top">
         <div class="uk-width-3-4">
-          <article>
-              <p class="uk-text-meta uk-margin-small-top uk-margin-remove-bottom">
-                  {{ range .Params.categories }} {{ humanize . }} {{ end }}
-              </p>
-              <a href="{{.Permalink}}" title="{{ .Title }}">
-                  <h2 class="uk-margin-remove-bottom list-title">{{ .Title }}</span></h2>
-              </a>
-              <p class="uk-margin-remove">{{ .Description }}</p>
-              <p class="uk-text-meta uk-margin-small-top uk-margin-small-bottom">
-                  {{ dateFormat "January 2, 2006" .Date }} &#x2022; {{ .ReadingTime }} mins
-              </p>
-          </article>
+            <article>
+                <p class="uk-text-meta uk-margin-small-top uk-margin-remove-bottom">
+                    {{ range .Params.categories }} {{ humanize . }} {{ end }}
+                </p>
+                <a href="{{.Permalink}}" title="{{ .Title }}">
+                    <h2 class="uk-margin-remove-bottom list-title">{{ .Title }}</span></h2>
+                </a>
+                <p class="uk-margin-remove">{{ .Description }}</p>
+                <p class="uk-text-meta uk-margin-small-top uk-margin-small-bottom">
+                    {{ dateFormat "January 2, 2006" .Date }} &#x2022; {{ .ReadingTime }} mins
+                </p>
+            </article>
 
-          <div class="uk-width-4-5 uk-margin-small-top">
-              <hr />
-              {{ .Params.showpostimage }}
-          </div>
+            <div class="uk-width-4-5 uk-margin-small-top">
+                <hr />
+                {{ .Params.showpostimage }}
+            </div>
         </div>
 
         <div class="uk-width-1-4">
             {{ with .Resources.GetMatch "header" }}
             {{ $image := .Fill "200x120" }}
             <figure class="uk-margin-small-top">
-              <img src="{{ $image.RelPermalink }}" />
+                <img src="{{ $image.RelPermalink }}" />
             </figure>
             {{ end }}
 
         </div>
     </div>
     {{ end }}
-  </div>
+</div>
 {{ end }}
